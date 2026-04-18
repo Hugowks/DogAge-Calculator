@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  font-family: "Noto Sans TC", sans-serif;
+  background: linear-gradient(#fff7f0, #ffeedd);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* 卡片 */
+.card {
+  background: #ffffffcc;
+  padding: 30px;
+  border-radius: 20px;
+  width: 320px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+h1 {
+  margin: 0;
+}
+
+.subtitle {
+  color: #888;
+  margin-bottom: 20px;
+}
+
+/* 輸入區 */
+.input-area {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input, select {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+}
+
+/* 按鈕 */
+button {
+  padding: 12px;
+  border: none;
+  border-radius: 12px;
+  background: #ffb6a3;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #ff9b84;
+}
+
+/* 結果 */
+.result {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+span {
+  font-weight: bold;
+  color: #ff7a5c;
+}
