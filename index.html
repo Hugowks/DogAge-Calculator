@@ -1,39 +1,48 @@
-<!DOCTYPE html>
-<html lang="zh-TW">
+<!DOCTYPE html <html lang="zh-TW">
+
 <head>
   <meta charset="UTF-8">
   <title>妙麗歲數計算機</title>
   <link rel="stylesheet" href="style.css">
+
+  <!--  放入這三行開始 -->
+  <link rel="icon" type="image/png" href="/images/icon.png">
+  <link rel="apple-touch-icon" href="/images/icon.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/icon.png">
+  <!--  放入這三行結束 -->Ï
+
 </head>
+
 <body>
 
-<div class="container">
-  <div class="card">
-    
-    <h1>🐶 妙麗歲數計算機</h1>
-    <p class="subtitle">看看妙麗在人類世界幾歲了 ✨</p>
+  <div class="container">
+    <div class="card">
 
-    <div class="input-area">
-      <label>選擇出生日期</label>
-      <input type="date" id="birthDate">
+      <h1>🐶 妙麗歲數計算機</h1>
+      <p class="subtitle">看看妙麗在人類世界幾歲了 ✨</p>
 
-      <label>狗狗體型</label>
-      <select id="dogSize">
-        <option value="small">中小型犬</option>
-        <option value="large">大型犬</option>
-      </select>
+      <div class="input-area">
+        <label>選擇出生日期</label>
+        <input type="date" id="birthDate">
 
-      <button id="calcBtn">開始計算</button>
+        <label>狗狗體型</label>
+        <select id="dogSize">
+          <option value="small">中小型犬</option>
+          <option value="large">大型犬</option>
+        </select>
+
+        <button id="calcBtn">開始計算</button>
+      </div>
+
+      <div class="result" id="result">
+        <p>妙麗現在為：<span id="dogAge">-</span></p>
+        <p>換算成人類為：<span id="humanAge">-</span></p>
+      </div>
+
     </div>
-
-    <div class="result" id="result">
-      <p>妙麗現在為：<span id="dogAge">-</span></p>
-      <p>換算成人類為：<span id="humanAge">-</span></p>
-    </div>
-
   </div>
-</div>
 
-<script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
+
 </html>
